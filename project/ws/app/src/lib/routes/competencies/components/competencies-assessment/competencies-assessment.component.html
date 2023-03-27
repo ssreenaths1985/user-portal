@@ -1,0 +1,5 @@
+<div *ngIf="assessmentData && learningObjective" class="competency_main">
+    <viewer-plugin-practice [identifier]="assessmentId" [artifactUrl]="''" [name]="learningObjective"
+        [learningObjective]="learningObjective" [primaryCategory]="primaryCategory" [complexityLevel]="'hard'"
+        [duration]="duration" [quizJson]="quizJson" [collectionId]="null"></viewer-plugin-practice>
+</div>

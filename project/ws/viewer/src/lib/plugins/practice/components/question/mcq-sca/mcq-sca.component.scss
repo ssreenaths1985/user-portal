@@ -1,0 +1,30 @@
+@import "ws-vars";
+@import "ws-common";
+
+.quiz-question {
+    overflow-x: auto;
+}
+
+.wrap-mat-radio-label {
+    white-space: normal;
+}
+
+.quiz-radio-group {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.quiz-radio-button {
+    margin: 5px;
+    padding: 8px;
+}
+
+
+.correct-answer {
+    border-color: #008000 !important;
+}
+
+.incorrect-answer {
+    border-color: #f44336 !important;
+}
